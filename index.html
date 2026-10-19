@@ -67,7 +67,7 @@
   cite { display: block; font-style: normal; font-family: var(--sans); font-size: 16px; color: var(--muted); margin-top: 16px; }
   blockquote { border-left: 4px solid var(--orange); padding-left: 26px; }
 
-  .folder { font-family: 'JetBrains Mono', ui-monospace, Consolas, monospace; font-size: clamp(36px, 6.4vw, 104px); color: var(--orange); line-height: 1.05; letter-spacing: -.02em; min-height: 1.1em; overflow-wrap: anywhere; }
+  .folder { font-family: var(--serif); font-weight: 900; font-size: clamp(40px, 6vw, 96px); max-width: 15ch; color: var(--orange); line-height: 1.05; letter-spacing: -.02em; min-height: 1.1em; overflow-wrap: anywhere; }
   .folder .caret { display: inline-block; width: .55em; height: .9em; background: var(--orange); vertical-align: -.08em; margin-left: 4px; animation: blink 1s steps(1) infinite; }
   @keyframes blink { 50% { opacity: 0; } }
   .kept { font-family: var(--serif); font-weight: 900; font-size: clamp(44px, 5vw, 80px); color: #fff; margin-top: 30px; }
@@ -372,9 +372,9 @@
 
 <section class="spread full" data-title="The promise">
   <div class="page">
-    <p class="tag" data-a>The Build 4 project folder</p>
-    <div class="folder" id="folder" data-text="AAA_hua_la_lan_cuoi" aria-label="AAA_hua_la_lan_cuoi">AAA_hua_la_lan_cuoi</div>
-    <p data-a style="font-size:22px">Vietnamese for <strong>"promise, this is the last time."</strong> Three A's to pin it to the top of every list, and there in the file path of every line of code we wrote.</p>
+    <p class="tag" data-a>The promise</p>
+    <div class="folder" id="folder" data-text="Promise, this is the last time." aria-label="Promise, this is the last time.">Promise, this is the last time.</div>
+    <p data-a style="font-size:22px">That's what we named the project folder when we started Build 4, written in Vietnamese, our team's first language. It sat in the file path of every line of code we wrote.</p>
     <div class="kept" data-a>We kept it.</div>
   </div>
 </section>
